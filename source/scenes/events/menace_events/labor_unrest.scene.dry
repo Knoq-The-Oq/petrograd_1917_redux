@@ -1,7 +1,7 @@
 title: Labor Unrest
 subtitle: A wave of strikes affecting industry.
 new-page: true
-view-if: labor_unrest_timer = 0 and labor_unrest >= 10
+view-if: labor_unrest_timer = 0 and labor_unrest >= 10 and strkes = 1
 on-arrival: labor_unrest_timer += 6; industry *= 0.98;
 tags: event
 
